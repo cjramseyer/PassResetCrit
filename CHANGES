@@ -1,0 +1,13 @@
+
+# General changes
+
+        v1.2.0
+        - Added script header
+        - Incorporated password generator
+        - Added validation that password change has replicated
+        - Added logic to complete 2 cycles for the KRBTGT password waiting for replication to complete
+        - Updated replication vliadation logic to check each domain
+        - Added recorded password file destruction automation
+
+        v1.0.0
+        - Initial Draft
